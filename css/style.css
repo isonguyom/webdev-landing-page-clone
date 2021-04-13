@@ -1,0 +1,214 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.c-search .c-form-icon {
+    height: 2.375rem;
+}
+
+.c-input {
+    background-color: rgb(241, 239, 239);
+}
+
+.c-menu a:hover {
+    background-color: rgb(243, 242, 242);
+}
+
+.c-btn {
+    height: 50px;
+}
+
+.c-btn1 {
+    border: solid 1px rgb(216, 213, 213);
+}
+
+.c-container{
+    padding-left: 5%;
+}
+
+.c-mt-5 {
+    margin-top: 6rem;
+}
+
+
+.c-container1 {
+    background-color: rgb(198, 245, 198);
+}
+
+.c-div {
+    cursor: pointer;
+}
+
+.c-div:hover {
+    box-shadow: -5px -5px 10px rgb(224, 222, 222), 5px 5px 10px rgb(224, 222, 222);
+    border: solid 1px rgb(224, 222, 222);
+    border-radius: 10px;
+}
+
+.c-btnsm {
+    border: solid 1px rgb(223, 217, 217);
+    border-radius: 20px;
+}
+
+.c-text {
+    border-top: solid 2px blue;
+    padding-top: 10px;
+}
+
+.c-link {
+    line-height: 7vh;
+    color: black;
+}
+
+.c-link:hover {
+    text-decoration: none;
+    color: blue;
+}
+
+.c-f-text {
+    font-size: 0.8rem;
+    margin-left: -1rem;
+}
+
+
+
+
+.class {
+    border-width: 5px;
+    border-left: green;
+    border-right: blue;
+    border-bottom: yellow;
+    border-top: tomato;
+    border-style: solid;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+/* The element to apply the animation to */
+
+.class1 {
+    border-width: 5px;
+    border-left: green;
+    border-right: blue;
+    border-bottom: yellow;
+    border-top: green;
+    border-style: solid;
+    border-radius: 100%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+}
+
+.three {
+    border-width: 5px;
+    background-color: yellow;
+    /* border-left: 0;
+    border-right: yellow;
+    border-bottom: yellow;
+    border-top: 0 ;
+    border-style: solid; */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    left: 3px;
+}
+
+.inside {
+    border-width: 5px;
+    background-color: green;
+    /* border-left: green ;
+    border-right: 0;
+    border-bottom: 0;
+    border-top: green;
+    border-style: solid; */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    bottom: 100px;
+    right: 50px;
+}
+
+.inner {
+    border-width: 5px;
+    background-color: blue;
+    /* border-left: blue ;
+    border-right: 0;
+    border-bottom:blue;
+    border-top: 0;
+    border-style: solid; */
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+    position: relative;
+    bottom: 150px;
+    right: 20px;
+}
+
+/* .in1 {
+    border-width: 5px;
+    border-top-left-radius: solid blue ;
+    border-right: 0;
+    border-bottom:0;
+    border-top: 0;
+    border-style: solid;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: auto;
+} */
+
+.love{
+    background-color: violet;
+    height: 100px;
+    width: 100px;
+    margin: auto;
+    transform: rotate(45deg);
+    border-bottom-right-radius: 5%;
+
+}
+
+.love{
+    animation: bounce 2s ease-in infinite;
+    animation-direction: alternate;
+} 
+
+.love::before{
+    height: 100px;
+    background-color: violet;
+    height: 100px;
+    width: 100px;
+    content: " ";
+    position: absolute;
+    right: 44%;
+    border-radius: 50%;
+    top: 0%;
+}
+
+.love::after{
+    height: 100px;
+    width: 100px;
+    background-color: violet;
+    content: " ";
+    position: absolute;
+    left: 0%;
+    border-radius: 50%;
+    top: -44%;
+}
+
+@keyframes bounce{
+    0%{
+     transform: scale(0.3) rotate(45deg);
+    }
+    100%{
+        transform: scale(0.6) rotate(45deg);
+    }
+}
+
